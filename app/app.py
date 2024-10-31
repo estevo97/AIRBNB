@@ -46,7 +46,7 @@ st.markdown("""### ¿Y si un grupo de colegas te encomendase un análisis de dat
 
 st.sidebar.title('Menú de la Aplicación')
 
-icono = Image.open(r'../img/abn3.png')
+icono = Image.open('img/abn3.png')
 # Cargar el icono en el menu de aplicacion
 st.sidebar.image(icono, use_column_width=True)
 
