@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Bases de datos y datasets
+*.sqlite3
+*.csv
+*.xls
+*.json
+
+# Logs y archivos temporales
+*.log
+*.bak
+*.swp
