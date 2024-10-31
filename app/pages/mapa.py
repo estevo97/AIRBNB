@@ -53,7 +53,7 @@ st.markdown("")
 st.markdown("")
 
 # Ejemplo de un elemento como un mapa HTML centrado
-mapa = '../mapa_vecindarios.html'
+mapa = 'mapa_vecindarios.html'
 with open(mapa, 'r') as f:
     html = f.read()
 st.components.v1.html(html, width=1000, height=600)
@@ -87,7 +87,7 @@ st.markdown("### Mapa 2. Distritos de Vaud")
 st.markdown("")
 st.markdown("")
 
-imagen = Image.open(r'../img/distritos_vaud.png')
+imagen = Image.open('img/distritos_vaud.png')
 
 st.image(imagen, caption='Distritos de Vaud (Suíza)| Autor: Tschubby. Fuente: https://commons.wikimedia.org/wiki/File:Karte_Kanton_Waadt_Bezirke_2013.png', use_column_width=True, width=600)
 
