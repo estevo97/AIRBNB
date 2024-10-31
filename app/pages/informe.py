@@ -70,7 +70,7 @@ st.markdown("""El objetivo de este trabajo es encontrar el mejor alojamiento de 
 
 
 
-imagen = Image.open(r'../img/chatillon.jpg')
+imagen = Image.open('img/chatillon.jpg')
 st.image(imagen, caption='Chateau de Ouchy en Lausanne (Suíza)| Autor: Pablo Monteagudo. Fuente: https://www.flickr.com/photos/26528022@N07/8424500042', use_column_width=True)
 
 
@@ -84,7 +84,7 @@ hay un claro **sesgo** hacia la derecha, lo que significa que tenemos muchos alo
 que superan por mucho la media, que está en torno a los 180 dólares por noche (véase línea verde).""")
 
 
-imagen = Image.open(r'../img/densidad_precios.png')
+imagen = Image.open('img/densidad_precios.png')
 st.image(imagen, caption='Densidad de precios de los alojamientos de Vaud', use_column_width=False, width=800, output_format='PNG')
 
 
@@ -105,7 +105,7 @@ nos centraremos únicamente en los 10 tipos de propiedad que más se repiten."""
 
 st.subheader('Tipos de propiedad y su frecuencia en los anuncios')
 
-data = pd.read_csv('../tablas/tabla_property_type.csv')
+data = pd.read_csv('tablas/tabla_property_type.csv')
 st.dataframe(data)
 
 st.markdown("""En la siguiente gráfica podemos ver que los alojamientos más caros son aquellos que ofrecen la **vivienda completa**, 
@@ -120,7 +120,7 @@ st.markdown("")
 st.markdown("")
 st.markdown("")
 
-imagen = Image.open(r'../img/top_10_propiedades.png')
+imagen = Image.open('img/top_10_propiedades.png')
 st.image(imagen, use_column_width=False, width=800, output_format='PNG')
 
 st.markdown("")
@@ -140,7 +140,7 @@ También llama la atención que los alojamientos del rango de precios bajos mejo
 nos indica que debe haber un salto notable en calidad entre el grupo de alojamientos con precios inferiores a los 50 dólares por noche y los que están 
 entre 50 y 100.""")
 
-imagen = Image.open(r'../img/puntuaciones.png')
+imagen = Image.open('img/puntuaciones.png')
 st.image(imagen, use_column_width=False, width=800, output_format='PNG')
 
 st.markdown("")
@@ -193,7 +193,7 @@ st.markdown("")
 st.markdown("")
 st.markdown("")
 
-imagen = Image.open(r'../img/alpes.jpg')
+imagen = Image.open('img/alpes.jpg')
 st.image(imagen, caption='Vista de los Alpes suízos.| Fuente: Wikimedia Commons. Url: https://commons.wikimedia.org/wiki/File:Genfersee_bei_montreux_2004_pischdi.JPG' , use_column_width=False, width=800, output_format='PNG')
 
 
@@ -220,7 +220,7 @@ Los distritos que dan a este lago son Nyon, Morges, Lausanne, Ouest Iausannois, 
 empezar buscando en el distrto de Lavoux-Oron, que es pequeño, tiene bastante costa en el lago y una terminal de ferry en Cully.""")
 
 
-imagen = Image.open(r'../img/cully.jpg')
+imagen = Image.open('img/cully.jpg')
 st.image(imagen, caption='Viñedos de la villa de Cully y lago Leman.| Fuente: Wikimedia Commons. Url: https://commons.wikimedia.org/wiki/File:Vi%C3%B1edos_Cully-Lavaux_%284%29.jpg', use_column_width=False, width=800, output_format='PNG')
 
 st.markdown("""Filtramos por período de fechas, por el rango de precio, por distrito y elegimos un alojamiento de tipo completo. En el tipo de
@@ -250,7 +250,7 @@ st.markdown("")
 st.markdown("")
 st.subheader('Alojamientos con 6 camas o más')
 
-data = pd.read_csv('../tablas/listings_seis_amigos.csv')
+data = pd.read_csv('tablas/listings_seis_amigos.csv')
 st.dataframe(data)
 
 st.markdown("")
@@ -283,7 +283,7 @@ Se trata, pues, de una casa de campo de aspecto muy rustico (chimenea, tablones 
 st.markdown("")
 st.markdown("")
 
-imagen = Image.open(r'../img/chimenea.jpg')
+imagen = Image.open('img/chimenea.jpg')
 st.image(imagen, caption='Chimenea de leña.| Fuente: pxheres. Url: https://pxhere.com/es/photo/593974', use_column_width=False, width=800, output_format='PNG')
 
 st.markdown("")
