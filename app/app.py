@@ -38,7 +38,7 @@ st.markdown("")
 
 st.write('**Presentado por: Estevo Arias García**')
 
-imagen = Image.open(r'../img/planning.jpg')
+imagen = Image.open('img/planning.jpg')
 st.image(imagen, caption='Así se planeaban antes los viajes | Fuente:pxhere.com: https://pxhere.com/es/photo/1622940', use_column_width=True)
 
 st.markdown("""### ¿Y si un grupo de colegas te encomendase un análisis de datos para escoger alojamiento en Vaud?""")
