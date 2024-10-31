@@ -2,6 +2,8 @@
 
 ### ¿ si un grupo de colegas te encomendase un análisis de datos para escoger alojamiento en Vaud?
 
+![Descripción de la imagen](img/planning.jpg)
+
 ## En el presente trabajo...
 
 - Plantearemos **DOS casos** de personas que quieren encontrar el mejor alojamiento.
