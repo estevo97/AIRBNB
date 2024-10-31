@@ -2,6 +2,8 @@
 
 ### ¿Y si un grupo de colegas te encomendase un análisis de datos para escoger alojamiento en Vaud?
 
+
+Presentado por: Estevo Arias García
 ![Descripción de la imagen](img/planning.jpg)
 
 ## En el presente trabajo...
