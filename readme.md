@@ -1,6 +1,6 @@
 # VIAJE A LOS ALPES EN COMPAÑÍA
 
-### ¿ si un grupo de colegas te encomendase un análisis de datos para escoger alojamiento en Vaud?
+### ¿Y si un grupo de colegas te encomendase un análisis de datos para escoger alojamiento en Vaud?
 
 ![Descripción de la imagen](img/planning.jpg)
 
