@@ -4,7 +4,7 @@
 
 
 Presentado por: Estevo Arias García
-![Descripción de la imagen](img/planning.jpg)
+img/planning.jpg
 
 ## En el presente trabajo...
 
