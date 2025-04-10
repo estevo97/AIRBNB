@@ -39,7 +39,7 @@ st.markdown("")
 st.write('**Presentado por: Estevo Arias García**')
 
 imagen = Image.open('img/planning.jpg')
-st.image(imagen, caption='Así se planeaban antes los viajes | Fuente:pxhere.com: https://pxhere.com/es/photo/1622940', use_column_width=True)
+st.image(imagen, caption='Así se planeaban antes los viajes | Fuente:pxhere.com: https://pxhere.com/es/photo/1622940', use_container_width=True)
 
 st.markdown("""### ¿Y si un grupo de colegas te encomendase un análisis de datos para escoger alojamiento en Vaud?""")
 
@@ -48,7 +48,7 @@ st.sidebar.title('Menú de la Aplicación')
 
 icono = Image.open('img/abn3.png')
 # Cargar el icono en el menu de aplicacion
-st.sidebar.image(icono, use_column_width=True)
+st.sidebar.image(icono, use_container_width=True)
 
 
 st.markdown("""## En el presente trabajo...""")
