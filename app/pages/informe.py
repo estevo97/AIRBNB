@@ -71,7 +71,7 @@ st.markdown("""El objetivo de este trabajo es encontrar el mejor alojamiento de 
 
 
 imagen = Image.open('img/chatillon.jpg')
-st.image(imagen, caption='Chateau de Ouchy en Lausanne (Suíza)| Autor: Pablo Monteagudo. Fuente: https://www.flickr.com/photos/26528022@N07/8424500042', use_column_width=True)
+st.image(imagen, caption='Chateau de Ouchy en Lausanne (Suíza)| Autor: Pablo Monteagudo. Fuente: https://www.flickr.com/photos/26528022@N07/8424500042', use_container_width=True)
 
 
 st.markdown("""## **Análisis exploratorio de datos**""")
@@ -85,7 +85,7 @@ que superan por mucho la media, que está en torno a los 180 dólares por noche 
 
 
 imagen = Image.open('img/densidad_precios.png')
-st.image(imagen, caption='Densidad de precios de los alojamientos de Vaud', use_column_width=False, width=800, output_format='PNG')
+st.image(imagen, caption='Densidad de precios de los alojamientos de Vaud', use_container_width=False, width=800, output_format='PNG')
 
 
 st.markdown("""Sin embargo, es muy posible que haya zonas de este cantón con alojamientos mucho más caros que otras. ¿Y si mirásemos la media 
@@ -121,7 +121,7 @@ st.markdown("")
 st.markdown("")
 
 imagen = Image.open('img/top_10_propiedades.png')
-st.image(imagen, use_column_width=False, width=800, output_format='PNG')
+st.image(imagen, use_container_width=False, width=800, output_format='PNG')
 
 st.markdown("")
 st.markdown("")
@@ -141,7 +141,7 @@ nos indica que debe haber un salto notable en calidad entre el grupo de alojamie
 entre 50 y 100.""")
 
 imagen = Image.open('img/puntuaciones.png')
-st.image(imagen, use_column_width=False, width=800, output_format='PNG')
+st.image(imagen, use_container_width=False, width=800, output_format='PNG')
 
 st.markdown("")
 st.markdown("")
@@ -194,7 +194,7 @@ st.markdown("")
 st.markdown("")
 
 imagen = Image.open('img/alpes.jpg')
-st.image(imagen, caption='Vista de los Alpes suízos.| Fuente: Wikimedia Commons. Url: https://commons.wikimedia.org/wiki/File:Genfersee_bei_montreux_2004_pischdi.JPG' , use_column_width=False, width=800, output_format='PNG')
+st.image(imagen, caption='Vista de los Alpes suízos.| Fuente: Wikimedia Commons. Url: https://commons.wikimedia.org/wiki/File:Genfersee_bei_montreux_2004_pischdi.JPG' , use_container_width=False, width=800, output_format='PNG')
 
 
 st.markdown("")
@@ -221,7 +221,7 @@ empezar buscando en el distrto de Lavoux-Oron, que es pequeño, tiene bastante c
 
 
 imagen = Image.open('img/cully.jpg')
-st.image(imagen, caption='Viñedos de la villa de Cully y lago Leman.| Fuente: Wikimedia Commons. Url: https://commons.wikimedia.org/wiki/File:Vi%C3%B1edos_Cully-Lavaux_%284%29.jpg', use_column_width=False, width=800, output_format='PNG')
+st.image(imagen, caption='Viñedos de la villa de Cully y lago Leman.| Fuente: Wikimedia Commons. Url: https://commons.wikimedia.org/wiki/File:Vi%C3%B1edos_Cully-Lavaux_%284%29.jpg', use_container_width=False, width=800, output_format='PNG')
 
 st.markdown("""Filtramos por período de fechas, por el rango de precio, por distrito y elegimos un alojamiento de tipo completo. En el tipo de
 propiedad, podemos probar con *entire home* como primera opción. Seleccionamos esta opción y vemos que sólo uno de los anuncios
@@ -284,7 +284,7 @@ st.markdown("")
 st.markdown("")
 
 imagen = Image.open('img/chimenea.jpg')
-st.image(imagen, caption='Chimenea de leña.| Fuente: pxheres. Url: https://pxhere.com/es/photo/593974', use_column_width=False, width=800, output_format='PNG')
+st.image(imagen, caption='Chimenea de leña.| Fuente: pxheres. Url: https://pxhere.com/es/photo/593974', use_container_width=False, width=800, output_format='PNG')
 
 st.markdown("")
 st.markdown("")
